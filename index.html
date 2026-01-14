@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GSG Elections 2026</title>
+  <meta name="description" content="Graduate Student Government election hub with candidate headshots and statements for every position." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/voting_logo.png" type="image/png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/site.js"></script>
+  <script defer src="assets/js/home.js"></script>
+</head>
+<body class="site" data-page="home">
+  <header class="site-header">
+    <div class="site-header__inner">
+      <div class="site-logo" aria-label="GSG Elections 2026">
+        <img class="site-logo__mark" src="assets/voting_logo.png" alt="Voting logo" />
+        <span>GSG Elections 2026</span>
+      </div>
+      <a class="vote-button" href="https://dummy.link" target="_blank" rel="noopener noreferrer">VOTE HERE</a>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="announcement" data-countdown>
+      <span class="announcement__value" data-count-days>--</span>d
+      <span class="announcement__value" data-count-hours>--</span>h
+      <span class="announcement__value" data-count-minutes>--</span>m
+      <span class="announcement__value" data-count-seconds>--</span>s
+      LEFT TO VOTE
+    </div>
+
+    <section class="events" id="events">
+      <div class="events__header">
+        <h2 class="events__title">Key Events</h2>
+        <p class="events__description">Dates, times, and locations for election happenings.</p>
+      </div>
+      <div class="events__list">
+        <article class="event-card">
+          <div class="event-card__meta">
+            <p class="event-card__label">Meet the Candidates</p>
+            <p class="event-card__datetime">01/14/25 · 6:30 PM</p>
+            <p class="event-card__location">Campus Club</p>
+          </div>
+        </article>
+        <article class="event-card">
+          <div class="event-card__meta">
+            <p class="event-card__label">Debate</p>
+            <p class="event-card__datetime">01/21 · 7:00 PM</p>
+            <p class="event-card__location">Location: TBA</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="positions" id="positions">
+      <div class="positions__layout">
+        <div class="positions__nav" data-position-tabs role="tablist" aria-label="Election positions"></div>
+        <div class="positions__content">
+          <p class="positions__summary" data-position-summary>Loading positions…</p>
+          <div class="candidate-list" data-position-detail></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="committee" id="committee">
+      <div class="committee__header">
+        <h2 class="committee__title">Election Committee</h2>
+        <p class="committee__description">Point of contact for the election process.</p>
+      </div>
+      <div class="committee__grid">
+        <article class="committee-card">
+          <div class="committee-card__avatar">
+            <img class="committee-card__photo" src="assets/election_committee_headshots/kalli_headshot.jpg" alt="Headshot of Kalliope Zervas" loading="lazy" />
+          </div>
+          <div class="committee-card__body">
+            <h3 class="committee-card__name">Kalliope Zervas</h3>
+            <p class="committee-card__contact"><a href="mailto:kz7658@princeton.edu">kz7658@princeton.edu</a></p>
+          </div>
+        </article>
+        <article class="committee-card">
+          <div class="committee-card__avatar">
+            <img class="committee-card__photo" src="assets/election_committee_headshots/jacob_headshot.jpg" alt="Headshot of Jacob Votava" loading="lazy" />
+          </div>
+          <div class="committee-card__body">
+            <h3 class="committee-card__name">Jacob Votava</h3>
+            <p class="committee-card__contact"><a href="mailto:jv6139@princeton.edu">jv6139@princeton.edu</a></p>
+          </div>
+        </article>
+        <article class="committee-card">
+          <div class="committee-card__avatar">
+            <img class="committee-card__photo" src="assets/election_committee_headshots/wes_headshot.jpg" alt="Headshot of Wesley Oliver" loading="lazy" />
+          </div>
+          <div class="committee-card__body">
+            <h3 class="committee-card__name">Wesley Oliver</h3>
+            <p class="committee-card__contact"><a href="mailto:wo6860@princeton.edu">wo6860@princeton.edu</a></p>
+          </div>
+        </article>
+        <article class="committee-card">
+          <div class="committee-card__avatar">
+            <img class="committee-card__photo" src="assets/election_committee_headshots/emma_headshot.jpg" alt="Headshot of Emma Bolton" loading="lazy" />
+          </div>
+          <div class="committee-card__body">
+            <h3 class="committee-card__name">Emma Bolton</h3>
+            <p class="committee-card__contact"><a href="mailto:eb4027@princeton.edu">eb4027@princeton.edu</a></p>
+          </div>
+        </article>
+        <article class="committee-card">
+          <div class="committee-card__avatar">
+            <img class="committee-card__photo" src="assets/election_committee_headshots/micheal_headshot.jpg" alt="Headshot of Michael Walker" loading="lazy" />
+          </div>
+          <div class="committee-card__body">
+            <h3 class="committee-card__name">Michael Walker</h3>
+            <p class="committee-card__contact"><a href="mailto:michael.walker@princeton.edu">michael.walker@princeton.edu</a></p>
+          </div>
+        </article>
+        <article class="committee-card">
+          <div class="committee-card__avatar">
+            <img class="committee-card__photo" src="assets/election_committee_headshots/hannah_headshot.jpg" alt="Headshot of Hannah Wiswell" loading="lazy" />
+          </div>
+          <div class="committee-card__body">
+            <h3 class="committee-card__name">Hannah Wiswell</h3>
+            <p class="committee-card__contact"><a href="mailto:hw4442@princeton.edu">hw4442@princeton.edu</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Princeton GSG Election Committee</p>
+  </footer>
+</body>
+</html>
