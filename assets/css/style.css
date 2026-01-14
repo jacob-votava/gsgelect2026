@@ -483,41 +483,18 @@ img {
 }
 
 @media (max-width: 860px) {
-  .hero {
-    grid-template-columns: 1fr;
-    text-align: left;
-  }
-
-  .hero__support {
-    order: -1;
-    justify-items: start;
-  }
-
-  .site-nav__toggle {
-    display: inline-flex;
-  }
-
-  .site-nav__panel {
-    position: absolute;
-    top: calc(100% + 0.4rem);
-    right: 0;
+  .site-header__inner {
     flex-direction: column;
-    align-items: stretch;
-    background: var(--color-surface);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-md);
-    padding: 0.6rem;
-    min-width: 210px;
-    box-shadow: var(--shadow-card);
-    display: none;
+    align-items: center;
+    text-align: center;
+    gap: 0.6rem;
   }
 
-  .site-nav__panel.is-open {
-    display: flex;
-  }
-
-  .site-nav__link {
+  .vote-button {
     width: 100%;
+    justify-content: center;
+  }
+
   .positions__layout {
     grid-template-columns: 1fr;
   }
@@ -534,11 +511,12 @@ img {
 
   .candidate-card {
     grid-template-columns: 1fr;
+    padding: 0.9rem;
   }
 
   .candidate-card__media {
-    width: 100%;
-    height: auto;
-    max-height: 280px;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
   }
 }
